@@ -9,3 +9,17 @@ For the database we are using mongodb there is a sample file for creating a data
 ```
 mongo bookApi < booksJson.js
 ```
+
+#### Running the app
+* This app has all the dependencies added to package.json, gulp is set up using the gulpfile.ks and app.js is the main file which runs the server.
+* For running the process
+```
+gulp
+```
+* For running the tests
+
+```
+gulp test
+```
+
+
